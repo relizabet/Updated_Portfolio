@@ -18,14 +18,10 @@ header.container {
   padding-bottom: 150px;
 }
 
-/* div.header-overlay {
-  background: rgba(255, 72, 72, 0.783);
-} */
-
 .container > h1 {
   font-size: 3em;
   font-family: "Montserrat Alternates", sans-serif;
-  text-shadow: 1px 1px 2px rgb(221, 198, 198);
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
   color: rgb(72, 72, 72);
   letter-spacing: 0.5rem;
   margin-bottom: 0;
@@ -33,13 +29,14 @@ header.container {
 }
 
 .container > h4 {
-  color: rgba(93, 93, 93, 0.692);
+  color: rgb(93, 93, 93);
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1em;
   margin-top: 0;
   padding-bottom: 10px;
   margin-bottom: 4em;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255) !important;
 }
 
 .wrapper {
@@ -48,12 +45,11 @@ header.container {
 }
 
 .wrapper > div.pad {
-  padding: 3em 10em;
+  padding: 4em 10em;
 }
 
 .wrapper > div.pad:nth-child(even) {
   box-shadow: inset 0 0 10px rgba(221, 198, 198, 0.516);
-  /* background: rgba(252, 244, 244, 0.486); */
   background-image: url("/Assets/texture.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -64,6 +60,7 @@ div.pad > h2 {
   color: rgba(93, 93, 93, 0.692);
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
+  text-align: center;
 }
 
 div.justify {
@@ -81,10 +78,6 @@ div.logo {
 div.logo-div {
   margin-top: 1em;
 }
-
-/* header.container {
-  box-shadow: inset 0 0 10px rgba(221, 198, 198, 0.516);
-} */
 
 div.logo-div > a:hover {
   border-left: 1px dotted rgb(221, 198, 198);

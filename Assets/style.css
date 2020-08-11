@@ -54,7 +54,7 @@ header.container {
 
 .wrapper > div.pad:nth-child(even) {
   box-shadow: inset 0 0 10px rgba(221, 198, 198, 0.516);
-  background-image: url("/Assets/texture.jpg");
+  background-image: url(texture.jpg);
   background-size: cover;
   background-attachment: fixed;
 }

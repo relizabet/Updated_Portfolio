@@ -13,7 +13,7 @@ body {
 header.container {
   height: 15em;
   display: grid;
-  background-image: url("/Assets/texture.jpg");
+  background-image: url(texture.jpg);
   background-size: cover;
   background-attachment: fixed;
   text-align: center;

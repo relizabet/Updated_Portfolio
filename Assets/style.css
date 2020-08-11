@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400&family=Montserrat:wght@300&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Montserrat:wght@300&family=Raleway&display=swap");
 
 body {
   font-family: "Raleway", sans-serif;
@@ -6,50 +6,64 @@ body {
   padding: 0;
 }
 
-div.justify {
-  box-shadow: 1px 1px 2px rgba(221, 198, 198, 0.66);
+header.container {
+  height: 15em;
+  display: grid;
+  background-image: url("/Assets/texture.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  box-shadow: inset 0 0 10px rgba(221, 198, 198, 0.516);
+  padding-top: 100px;
+  padding-bottom: 150px;
 }
 
-.container {
-  padding-top: 10rem;
-  padding-bottom: 13rem;
-  display: grid;
-  background: rgba(252, 244, 244, 0.486);
-  text-align: center;
-}
+/* div.header-overlay {
+  background: rgba(255, 72, 72, 0.783);
+} */
 
 .container > h1 {
-  margin-bottom: 0.5rem;
-  font-size: xxx-large;
+  font-size: 3em;
   font-family: "Montserrat Alternates", sans-serif;
   text-shadow: 1px 1px 2px rgb(221, 198, 198);
-  color: rgb(55, 55, 55);
+  color: rgb(72, 72, 72);
   letter-spacing: 0.5rem;
+  margin-bottom: 0;
+  padding-top: 60px;
 }
 
 .container > h4 {
   color: rgba(93, 93, 93, 0.692);
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  margin: 0;
-  letter-spacing: 0.4em;
+  letter-spacing: 1em;
+  margin-top: 0;
+  padding-bottom: 10px;
+  margin-bottom: 4em;
 }
 
 .wrapper {
   display: grid;
-  grid-template-rows: 3fr 3fr 1fr 4fr;
+  grid-template-rows: 3fr 1fr 2fr 1fr;
 }
 
-.wrapper > div {
-  padding-left: 10em;
-  padding-right: 10em;
+.wrapper > div.pad {
+  padding: 3em 10em;
 }
 
-.wrapper > div {
-  background: #eee;
+.wrapper > div.pad:nth-child(even) {
+  box-shadow: inset 0 0 10px rgba(221, 198, 198, 0.516);
+  /* background: rgba(252, 244, 244, 0.486); */
+  background-image: url("/Assets/texture.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
-.wrapper > div:nth-child(odd) {
-  background: #ddd;
+
+div.pad > h2 {
+  padding: 0 0 1em 0;
+  color: rgba(93, 93, 93, 0.692);
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 
 div.justify {
@@ -68,8 +82,12 @@ div.logo-div {
   margin-top: 1em;
 }
 
-div.logo-div:hover {
-  border-left: 1px solid rgb(221, 198, 198);
+/* header.container {
+  box-shadow: inset 0 0 10px rgba(221, 198, 198, 0.516);
+} */
+
+div.logo-div > a:hover {
+  border-left: 1px dotted rgb(221, 198, 198);
 }
 
 nav {
@@ -96,14 +114,24 @@ a {
 }
 
 li:hover {
-  border-left: 1px solid rgb(221, 198, 198);
+  border-left: 1px dotted rgb(221, 198, 198);
 }
 
 a:hover {
-  color: rgba(0, 0, 0, 0.568);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+footer {
+  text-align: center;
+  color: rgba(93, 93, 93, 0.288);
+  margin: 10px 0;
 }
 
 @media screen and (max-width: 992px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
   ul {
     padding: 0;
   }
@@ -123,5 +151,12 @@ a:hover {
   }
   div.logo {
     margin-left: 1em;
+  }
+  div.logo {
+    margin-left: 1em;
+  }
+  .wrapper > div.pad {
+    margin: 0;
+    padding: 1em;
   }
 }

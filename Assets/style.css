@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Montserrat:wght@300&family=Raleway&display=swap");
 
+* {
+  box-sizing: inherit;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   margin: 0;

@@ -26,7 +26,7 @@ header.container {
   font-size: 3em;
   font-family: "Montserrat Alternates", sans-serif;
   text-shadow: 1px 1px 3px rgb(255, 255, 255);
-  color: rgb(72, 72, 72);
+  color: rgb(101, 101, 101);
   letter-spacing: 0.5rem;
   margin-bottom: 0;
   margin-top: 30px;
@@ -34,7 +34,7 @@ header.container {
 }
 
 .container > h4 {
-  color: rgb(93, 93, 93);
+  color: rgb(48, 48, 48);
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.2em;
@@ -78,7 +78,9 @@ div.justify {
 div.pad > p {
   text-align: justify;
   padding: 1em 0;
-  font-size: medium;
+  color: rgba(80, 80, 80, 0.815);
+
+  font-size: large;
 }
 
 div.logo {
@@ -145,26 +147,27 @@ img.portfolio-even {
   justify-self: end;
 }
 
-div.portfolio-style > h2,
-p {
-  padding-bottom: 2em;
+p,
+img.portfolio-odd,
+div.portfolio-style > h2 {
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 
 div.portfolio-style > p {
   text-align: justify;
 }
 
-h2.h-odd {
+h2.h-odd,
+img {
   text-align: right;
 }
 
-/* portfolio end */
-
-/* contact */
-
 div.form-container {
-  padding: 1em 10em;
+  padding: 1em 15em;
   color: rgba(93, 93, 93, 0.822);
+  /* text-align: center; */
+  /* max-width: 500px; */
 }
 
 form.form-style {
@@ -241,9 +244,16 @@ button.form-submit {
   }
   img.portfolio-even {
     justify-self: center;
+    padding-top: 2em;
+  }
+  img.portfolio-odd {
+    padding-bottom: 2em;
   }
   div.form-container {
     padding: 1em 6em;
+  }
+  div.portfolio-style > h2 {
+    text-align: center;
   }
 }
 

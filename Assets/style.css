@@ -46,7 +46,7 @@ header.container {
 
 .wrapper {
   display: grid;
-  grid-template-rows: 2fr 1fr 2fr 1fr;
+  grid-template-rows: 2fr 1fr;
 }
 
 .wrapper > div.pad {
@@ -155,6 +155,41 @@ div.portfolio-style > p {
 }
 
 /* portfolio end */
+
+/* contact */
+
+div.form-container {
+  padding: 1em 10em;
+  color: rgba(93, 93, 93, 0.822);
+}
+
+form.form-style {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+form.form-style > input,
+textarea {
+  border-color: rgb(221, 198, 198);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  margin-bottom: 1em;
+}
+
+button.form-submit {
+  background: rgba(93, 93, 93, 0.571);
+  color: white;
+  border: none;
+  height: 25px;
+  width: 80px;
+  font: bold 15px;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px #eee;
+}
+
+/* contact end */
 
 @media screen and (max-width: 992px) {
   body {

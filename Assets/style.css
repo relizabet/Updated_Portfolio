@@ -46,11 +46,11 @@ header.container {
 
 .wrapper {
   display: grid;
-  grid-template-rows: 3fr 1fr 2fr 1fr;
+  grid-template-rows: 2fr 1fr 2fr 1fr;
 }
 
 .wrapper > div.pad {
-  padding: 4em 15em;
+  padding: 4em 12em;
 }
 
 .wrapper > div.pad:nth-child(even) {
@@ -71,6 +71,7 @@ div.pad > h2 {
 div.justify {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   color: rgba(93, 93, 93, 0.692);
 }
 
@@ -81,7 +82,7 @@ div.pad > p {
 }
 
 div.logo {
-  margin-left: 15em;
+  margin-left: 12em;
   font-size: 0.9em;
   text-align: left;
 }
@@ -95,7 +96,7 @@ div.logo-div > a:hover {
 }
 
 nav {
-  margin-right: 15rem;
+  margin-right: 12rem;
   font-size: 0.9em;
 }
 
@@ -131,7 +132,80 @@ footer {
   margin: 10px 0;
 }
 
+/* portfolio page */
+
+div.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+
+img.portfolio-even {
+  justify-self: end;
+}
+
+div.portfolio-style > h2,
+p {
+  padding-bottom: 2em;
+}
+
+div.portfolio-style > p {
+  text-align: justify;
+}
+
+/* portfolio end */
+
 @media screen and (max-width: 992px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    display: inline;
+    padding: 0;
+  }
+  a {
+    padding-right: 3px;
+  }
+  .wrapper > div {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  nav {
+    margin-right: 6em;
+  }
+  div.logo {
+    margin-left: 6em;
+  }
+  div.logo {
+    margin-left: 6em;
+  }
+  .wrapper > div.pad {
+    margin: 0;
+    padding: 6em;
+  }
+  .container > h1 {
+    font-size: 3em;
+  }
+  div.portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: rgb(0, 0, 0);
+    align-items: center;
+  }
+  img {
+    justify-self: center;
+  }
+  img.portfolio-even {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 724px) {
   body {
     margin: 0;
     padding: 0;

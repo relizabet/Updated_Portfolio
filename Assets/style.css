@@ -238,6 +238,9 @@ button.form-submit {
   img.portfolio-even {
     justify-self: center;
   }
+  div.form-container {
+    padding: 1em 6em;
+  }
 }
 
 @media screen and (max-width: 724px) {
@@ -274,5 +277,8 @@ button.form-submit {
   }
   .container > h1 {
     font-size: 3em;
+  }
+  div.form-container {
+    padding: 1em 2em;
   }
 }

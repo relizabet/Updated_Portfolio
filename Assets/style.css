@@ -154,6 +154,10 @@ div.portfolio-style > p {
   text-align: justify;
 }
 
+h2.h-odd {
+  text-align: right;
+}
+
 /* portfolio end */
 
 /* contact */

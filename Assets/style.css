@@ -60,7 +60,8 @@ header.container {
   background-attachment: fixed;
 }
 
-div.pad > h2 {
+div.pad > h2,
+h3 {
   padding: 0 0 1em 0;
   color: rgba(93, 93, 93, 0.692);
   font-family: "Montserrat", sans-serif;
@@ -163,11 +164,17 @@ img {
   text-align: right;
 }
 
+/* contact */
+
+div.social-para > p {
+  text-align: justify;
+  padding: 1em;
+  color: rgba(75, 75, 75, 0.822);
+}
+
 div.form-container {
-  padding: 1em 15em;
+  padding: 1em 8em;
   color: rgba(93, 93, 93, 0.822);
-  /* text-align: center; */
-  /* max-width: 500px; */
 }
 
 form.form-style {
@@ -194,6 +201,28 @@ button.form-submit {
   text-shadow: none;
   border-radius: 3px;
   box-shadow: 2px 2px 2px #eee;
+}
+
+div.social-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+i.fa-linkedin,
+i.fa-github,
+i.fa-twitter {
+  font-size: xx-large;
+}
+
+i.fa-linkedin {
+  color: #2867b2;
+}
+i.fa-github {
+  color: #040204;
+}
+i.fa-twitter {
+  color: #1da1f2;
 }
 
 /* contact end */
@@ -250,7 +279,7 @@ button.form-submit {
     padding-bottom: 2em;
   }
   div.form-container {
-    padding: 1em 6em;
+    padding: 1em 8em;
   }
   div.portfolio-style > h2 {
     text-align: center;
@@ -294,5 +323,13 @@ button.form-submit {
   }
   div.form-container {
     padding: 1em 2em;
+  }
+  div.social-media {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  div.social-para {
+    padding-top: 2em;
   }
 }

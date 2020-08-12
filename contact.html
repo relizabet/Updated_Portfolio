@@ -127,15 +127,20 @@
 
       <div class="pad">
         <div class="form-container">
-          <form action="#" method="GET" class="form-style">
+          <form action="form.php" method="POST" class="form-style">
             <label for="name">Name</label>
-            <input type="text" />
+            <input type="text" name="name" />
             <label for="email">Email</label>
-            <input type="text" />
+            <input type="text" name="email" />
             <label for="message">Message</label>
-            <textarea type="text"> </textarea>
+            <textarea name="message"> </textarea>
+            <button type="submit" value="Send" class="form-submit">
+              Submit
+            </button>
+            <button type="reset" value="Clear" class="form-submit">
+              Clear
+            </button>
           </form>
-          <button class="form-submit">Submit</button>
         </div>
       </div>
       <div class="pad"></div>

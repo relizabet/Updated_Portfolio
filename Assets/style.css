@@ -164,6 +164,15 @@ img {
   text-align: right;
 }
 
+div.portfolio-grid > img {
+  /* background-color: aqua; */
+  max-width: 300px;
+  max-height: 300px;
+  margin: 0.5em;
+  padding: 0.5em;
+  box-shadow: 1px 1px 4px rgb(201, 201, 201);
+}
+
 /* contact */
 
 div.social-para > p {

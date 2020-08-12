@@ -25,7 +25,9 @@ header.container {
 .container > h1 {
   font-size: 4em;
   font-family: "Montserrat Alternates", sans-serif;
-  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+  /* text-shadow: 3px 3px 5px rgb(255, 255, 255); */
+  text-shadow: 1px 0px 3px rgb(255, 255, 255);
+
   color: rgb(101, 101, 101);
   letter-spacing: 0.5rem;
   margin-bottom: 0;
@@ -41,7 +43,8 @@ header.container {
   margin-top: 0;
   padding-bottom: 10px;
   margin-bottom: 4em;
-  text-shadow: 1px 1px 1px rgb(255, 255, 255) !important;
+  /* text-shadow: 1px 1px 1px rgb(255, 255, 255) !important; */
+  text-shadow: 1px 0px 3px rgb(255, 255, 255);
 }
 
 .wrapper {
@@ -95,9 +98,9 @@ div.logo-div {
   margin-top: 1em;
 }
 
-div.logo-div > a:hover {
+/* div.logo-div > a:hover {
   border-left: 1px dotted rgb(221, 198, 198);
-}
+} */
 
 nav {
   margin-right: 12rem;
@@ -166,12 +169,18 @@ img {
 }
 
 div.portfolio-grid > img {
-  /* background-color: aqua; */
   max-width: 300px;
   max-height: 300px;
   margin: 0.5em;
   padding: 0.5em;
   box-shadow: 1px 1px 4px rgb(201, 201, 201);
+  opacity: 70%;
+  background: rgba(250, 248, 248, 0.475);
+  border-radius: 3px;
+}
+div.portfolio-grid > img:hover {
+  opacity: 85%;
+  background: none;
 }
 
 /* contact */
@@ -194,12 +203,12 @@ form.form-style {
 
 form.form-style > input,
 textarea {
-  border-color: rgb(221, 198, 198);
+  border-color: rgba(219, 200, 200, 0.548);
   border-style: solid;
   border-width: 1px;
   border-radius: 3px;
   margin-bottom: 1em;
-  box-shadow: inset 0 0 5px rgba(221, 198, 198, 0.516);
+  box-shadow: inset 0 0 3px rgba(233, 222, 222, 0.516);
 }
 
 div.btn-grid {

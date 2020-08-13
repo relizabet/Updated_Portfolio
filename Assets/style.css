@@ -98,10 +98,6 @@ div.logo-div {
   margin-top: 1em;
 }
 
-/* div.logo-div > a:hover {
-  border-left: 1px dotted rgb(221, 198, 198);
-} */
-
 nav {
   margin-right: 12rem;
   font-size: 0.9em;
@@ -151,6 +147,17 @@ div.portfolio-grid {
 img.portfolio-even {
   justify-self: end;
 }
+
+.portfolio-style {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+/******* WORK ON THIS ********
+.portfolio-style > button {
+  grid-template-columns: 1fr 1fr;
+}
+*****************************/
 
 p,
 img.portfolio-odd,
@@ -212,16 +219,35 @@ textarea {
 }
 
 div.btn-grid {
-  text-align: center;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+div.btn-grid > button.btn-code {
+  justify-self: right;
+}
+div.btn-grid > button.btn-visit {
+  justify-self: right;
+}
+
+div.btn-grid-even {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+div.btn-grid > button.btn-code-even {
+  justify-self: left;
+}
+div.btn-grid > button.btn-visit-even {
+  justify-self: left;
 }
 
 button.form-submit {
-  /* background: linear-gradient() rgba(221, 198, 198, 0.516); */
   background-image: radial-gradient(
     rgba(235, 219, 219, 0.516),
     rgba(243, 234, 234, 0.516),
     rgba(243, 234, 234, 0.516),
-    rgba(241, 234, 234, 0.774)
+    rgba(241, 234, 234, 0.774),
+    rgba(247, 241, 241, 0.774)
   );
   color: rgba(75, 75, 75, 0.801);
   height: 25px;
@@ -230,9 +256,15 @@ button.form-submit {
   font: bold 15px;
   text-shadow: none;
   border-radius: 3px;
-  box-shadow: 2px 2px 4px rgb(208, 208, 208);
+  box-shadow: 2px 2px 3px rgb(208, 208, 208);
   margin: 0.2em;
-  /* text-shadow: 0 0 2px rgba(133, 133, 133, 0.516); */
+}
+
+button.form-submit:hover {
+  box-shadow: 2px 3px 3px rgb(208, 208, 208);
+  width: 80.5px;
+  height: 25.5px;
+  padding-bottom: 0.5px;
 }
 
 div.social-media {
@@ -316,6 +348,23 @@ i.fa-twitter {
   div.portfolio-style > h2 {
     text-align: center;
   }
+  div.btn-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  div.btn-grid > button.btn-code {
+    justify-self: left;
+  }
+  div.btn-grid > button.btn-visit {
+    justify-self: right;
+  }
+  div.btn-grid > button.btn-code-even {
+    justify-self: left;
+  }
+  div.btn-grid > button.btn-visit-even {
+    justify-self: right;
+  }
 }
 
 @media screen and (max-width: 724px) {
@@ -363,5 +412,9 @@ i.fa-twitter {
   }
   div.social-para {
     padding-top: 2em;
+  }
+  div.portfolio-grid > img {
+    max-width: 250px;
+    max-height: 250px;
   }
 }

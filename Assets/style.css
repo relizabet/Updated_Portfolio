@@ -25,7 +25,6 @@ header.container {
 .container > h1 {
   font-size: 4em;
   font-family: "Montserrat Alternates", sans-serif;
-  /* text-shadow: 3px 3px 5px rgb(255, 255, 255); */
   text-shadow: 1px 0px 3px rgb(255, 255, 255);
 
   color: rgb(101, 101, 101);
@@ -43,7 +42,6 @@ header.container {
   margin-top: 0;
   padding-bottom: 10px;
   margin-bottom: 4em;
-  /* text-shadow: 1px 1px 1px rgb(255, 255, 255) !important; */
   text-shadow: 1px 0px 3px rgb(255, 255, 255);
 }
 
@@ -53,7 +51,10 @@ header.container {
 }
 
 .wrapper > div.pad {
+  display: grid;
+  grid-template-rows: auto;
   padding: 4em 12em;
+  justify-content: center;
 }
 
 .wrapper > div.pad:nth-child(even) {
@@ -84,8 +85,8 @@ div.pad > p {
   text-align: justify;
   padding: 1em 0;
   color: rgba(80, 80, 80, 0.815);
-
-  font-size: large;
+  max-width: 1100px;
+  font-size: x-large;
 }
 
 div.logo {
@@ -153,12 +154,6 @@ img.portfolio-even {
   grid-template-rows: auto;
 }
 
-/******* WORK ON THIS ********
-.portfolio-style > button {
-  grid-template-columns: 1fr 1fr;
-}
-*****************************/
-
 p,
 img.portfolio-odd,
 div.portfolio-style > h2 {
@@ -195,11 +190,12 @@ div.portfolio-grid > img:hover {
 div.social-para > p {
   text-align: justify;
   padding: 1em;
+  font-size: x-large;
   color: rgba(75, 75, 75, 0.822);
 }
 
 div.form-container {
-  padding: 1em 8em;
+  padding: 1em 1em;
   color: rgba(93, 93, 93, 0.822);
 }
 
@@ -289,6 +285,17 @@ i.fa-twitter {
   color: #1da1f2;
 }
 
+div.btn-grid-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+div.btn-grid-contact > button.btn-clear {
+  justify-self: left;
+}
+div.btn-grid-contact > button.btn-submit {
+  justify-self: right;
+}
+
 /* contact end */
 
 @media screen and (max-width: 992px) {
@@ -343,26 +350,26 @@ i.fa-twitter {
     padding-bottom: 2em;
   }
   div.form-container {
-    padding: 1em 8em;
+    padding: 1em 1em;
   }
   div.portfolio-style > h2 {
     text-align: center;
   }
-  div.btn-grid {
+  div.btn-grid,
+  div.btn-grid-even {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
   div.btn-grid > button.btn-code {
     justify-self: left;
   }
   div.btn-grid > button.btn-visit {
     justify-self: right;
   }
-  div.btn-grid > button.btn-code-even {
+  div.btn-grid-even > button.btn-code-even {
     justify-self: left;
   }
-  div.btn-grid > button.btn-visit-even {
+  div.btn-grid-even > button.btn-visit-even {
     justify-self: right;
   }
 }
@@ -372,12 +379,12 @@ i.fa-twitter {
     margin: 0;
     padding: 0;
   }
-  ul {
+  ul,
+  li {
     padding: 0;
   }
   li {
     display: inline;
-    padding: 0;
   }
   a {
     padding-right: 3px;
@@ -403,7 +410,7 @@ i.fa-twitter {
     font-size: 3em;
   }
   div.form-container {
-    padding: 1em 2em;
+    padding: 1em 1em;
   }
   div.social-media {
     display: grid;

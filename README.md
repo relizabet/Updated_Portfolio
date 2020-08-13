@@ -6,9 +6,9 @@ For this assignment we were asked to meet the following requirements:
 
     Submit an updated portfolio featuring project 1 and two exemplary homework assignments.
 
-    Submit an updated GitHub profile with pinned repositories featuring project 1 and two exemplary assignments.
+    XXXXXXXX Submit an updated GitHub profile with pinned repositories featuring project 1 and two exemplary assignments.
 
-    Submit an updated resume
+    XXXXXXXX Submit an updated resume
 
     Submit an updated LinkedIn profile
 
@@ -18,33 +18,33 @@ For this assignment we were asked to meet the following requirements:
 
 Your updated portfolio should contain the following:
 
-1. Your full name
+1. XXXXXXXX Your full name
 
-2. Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+2. XXXXXXXX Links to your GitHub profile & LinkedIn page as well as your email address and phone number
 
-3. A link to a PDF of your resume
+3. XXXXXXXX A link to a PDF of your resume
 
-4. A list of 3-5 projects. For each project, make sure you have the following:
+4. XXXXXXXX A list of 3-5 projects. For each project, make sure you have the following:
 
-   - Project title
+   - XXXXXXXX Project title
 
-   - Link to the deployed version
+   - XXXXXXXX Link to the deployed version
 
-   - Link to the GitHub repository
+   - XXXXXXXX Link to the GitHub repository
 
-   - Screenshot of the deployed application
+   - XXXXXXXX Screenshot of the deployed application
 
-5. Ensure that your portfolio is free of grammar and spelling mistakes
+5. XXXXXXXX Ensure that your portfolio is free of grammar and spelling mistakes
 
-#### Design
+#### XXXXXXXX Design
 
-Unfortunately, this is where it gets a little bit subjective. Your site should look
+XXXXXXXX Unfortunately, this is where it gets a little bit subjective. Your site should look
 "polished." Here are a few guidelines on what that means:
 
-- Mobile-first design
-- Choose a color palette for your site so it doesn't just look like
+- XXXXXXXX Mobile-first design
+- XXXXXXXX Choose a color palette for your site so it doesn't just look like
   the default bootstrap theme or an unstyled HTML site.
-- Make sure the font size is large enough to read, and that the colors don't cause eye strain.
+- XXXXXXXX Make sure the font size is large enough to read, and that the colors don't cause eye strain.
 
 ## Updated GitHub Profile
 

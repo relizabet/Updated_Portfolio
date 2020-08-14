@@ -45,6 +45,13 @@ header.container {
   text-shadow: 1px 0px 3px rgb(255, 255, 255);
 }
 
+h2.h-odd,
+h2.h-even {
+  color: rgb(48, 48, 48);
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
 .wrapper {
   display: grid;
   grid-template-rows: 1fr;
@@ -89,10 +96,18 @@ div.pad > p {
   font-size: x-large;
 }
 
+button#read-more {
+  font-size: x-small;
+}
+
 div.logo {
   margin-left: 12em;
   font-size: 0.9em;
   text-align: left;
+}
+
+div.portfolio-style {
+  padding: 2em;
 }
 
 div.logo-div {
@@ -266,15 +281,15 @@ button.form-submit {
   font: bold 15px;
   text-shadow: none;
   border-radius: 3px;
-  box-shadow: 2px 2px 3px rgb(208, 208, 208);
+  box-shadow: 1px 2px 3px rgba(208, 188, 188, 0.516);
   margin: 0.2em;
 }
 
 button.form-submit:hover {
-  box-shadow: 2px 3px 3px rgb(208, 208, 208);
-  width: 80.5px;
-  height: 25.5px;
-  padding-bottom: 0.5px;
+  box-shadow: 1px 2px 4px rgba(191, 169, 169, 0.516);
+  width: 80px;
+  height: 25px;
+  margin-bottom: 2px;
 }
 
 div.social-media {

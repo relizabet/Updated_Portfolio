@@ -9,3 +9,5 @@ mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 echo "Thank You!";
 header("Refresh:0; url=contact.html");
 ?>
+
+<!-- https://1stwebdesigner.com/php-contact-form-html/ -->

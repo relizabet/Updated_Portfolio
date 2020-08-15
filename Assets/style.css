@@ -17,7 +17,7 @@ header.container {
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
-  box-shadow: inset 0 0 15px rgba(201, 175, 175, 0.699);
+  box-shadow: inset 0 0 15px rgb(185, 156, 156);
   padding-top: 100px;
   padding-bottom: 150px;
 }
@@ -65,7 +65,7 @@ h2.h-even {
 }
 
 .wrapper > div.pad:nth-child(even) {
-  box-shadow: inset 0 0 15px rgba(201, 175, 175, 0.699);
+  box-shadow: inset 0 0 15px rgb(185, 156, 156);
 
   background-image: url(texture.jpg);
   background-size: cover;
@@ -75,7 +75,7 @@ h2.h-even {
 div.pad > h2,
 h3 {
   padding: 0 0 1em 0;
-  color: rgba(93, 93, 93, 0.692);
+  color: rgb(83, 82, 82);
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   text-align: center;
@@ -85,13 +85,13 @@ div.justify {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  color: rgba(93, 93, 93, 0.692);
+  color: rgb(83, 82, 82);
 }
 
 div.pad > p {
   text-align: justify;
   padding: 1em 0;
-  color: rgba(80, 80, 80, 0.815);
+  color: rgb(83, 82, 82);
   max-width: 1100px;
   font-size: x-large;
 }
@@ -129,7 +129,7 @@ li {
 }
 
 a {
-  color: rgba(93, 93, 93, 0.692);
+  color: rgb(83, 82, 82);
   text-decoration: none;
   padding-right: 0.5em;
   padding-left: 0.5em;
@@ -147,7 +147,7 @@ a:hover {
 
 footer {
   text-align: center;
-  color: rgba(93, 93, 93, 0.288);
+  color: rgb(83, 82, 82);
   margin: 10px 0;
 }
 
@@ -187,7 +187,7 @@ div.portfolio-style > p {
 
 a#footer-link {
   text-transform: lowercase;
-  color: rgba(93, 93, 93, 0.288);
+  color: rgb(83, 82, 82);
   text-align: right;
   border-left: 1px dotted rgb(221, 198, 198);
   padding-right: 0;
@@ -206,7 +206,7 @@ div.portfolio-grid > img {
   padding: 0.5em;
   box-shadow: 1px 1px 4px rgb(201, 201, 201);
   opacity: 70%;
-  background: rgba(250, 248, 248, 0.475);
+  background: rgb(253, 252, 252);
   border-radius: 3px;
 }
 div.portfolio-grid > img:hover {
@@ -220,12 +220,12 @@ div.social-para > p {
   text-align: justify;
   padding: 1em;
   font-size: x-large;
-  color: rgba(75, 75, 75, 0.822);
+  color: rgb(83, 82, 82);
 }
 
 div.form-container {
   padding: 1em 1em;
-  color: rgba(93, 93, 93, 0.822);
+  color: rgb(83, 82, 82);
 }
 
 form.form-style {
@@ -235,12 +235,12 @@ form.form-style {
 
 form.form-style > input,
 textarea {
-  border-color: rgba(219, 200, 200, 0.548);
+  border-color: rgb(185, 156, 156);
   border-style: solid;
   border-width: 1px;
   border-radius: 3px;
   margin-bottom: 1em;
-  box-shadow: inset 0 0 3px rgba(233, 222, 222, 0.516);
+  box-shadow: inset 0 0 3px rgb(243, 236, 236);
 }
 
 div.btn-grid {
@@ -267,26 +267,19 @@ div.btn-grid > button.btn-visit-even {
 }
 
 button.form-submit {
-  background-image: radial-gradient(
-    rgba(235, 219, 219, 0.516),
-    rgba(243, 234, 234, 0.516),
-    rgba(243, 234, 234, 0.516),
-    rgba(241, 234, 234, 0.774),
-    rgba(247, 241, 241, 0.774)
-  );
-  color: rgba(75, 75, 75, 0.801);
+  background-color: rgb(226, 216, 216);
+  color: rgb(75, 75, 75);
   height: 25px;
   border: none;
   width: 80px;
-  font: bold 15px;
   text-shadow: none;
   border-radius: 3px;
-  box-shadow: 1px 2px 3px rgba(208, 188, 188, 0.516);
+  box-shadow: 1px 2px 3px rgb(139, 126, 126);
   margin: 0.2em;
 }
 
 button.form-submit:hover {
-  box-shadow: 1px 2px 4px rgba(191, 169, 169, 0.516);
+  box-shadow: 1px 2px 4px rgb(100, 87, 87);
   width: 80px;
   height: 25px;
   margin-bottom: 2px;

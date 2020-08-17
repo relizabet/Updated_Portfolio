@@ -88,7 +88,7 @@ To veiw my updated portfolio visit the deployed location on [Github Pages](https
 
 ## Usage
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IRGtSfRcAQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[In Use](https://www.youtube.com/embed/IRGtSfRcAQc)
 
 <!-- CONTRIBUTING -->
 

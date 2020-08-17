@@ -99,4 +99,4 @@ Project Link: [https://github.com/relizabet/Updated_Portfolio](https://github.co
 
 ## Acknowledgements
 
-- [Choose an Open Source License](https://choosealicense.com)
+- [MIT](https://mit-license.org/)

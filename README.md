@@ -91,7 +91,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@rachelizacamp1](https://twitter.com/rachelizacamp1) - rachel@relizabeth.com
+Rachel E Campbell - [@rachelizacamp1](https://twitter.com/rachelizacamp1) - rachel@relizabeth.com
 
 Project Link: [https://github.com/relizabet/Updated_Portfolio](https://github.com/relizabet/Updated_Portfolio)
 

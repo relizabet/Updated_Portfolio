@@ -1,4 +1,6 @@
-# Updated_Portfolio
+# Updated Portfolio
+
+An updated portfolio page featuring 4 of my most recent projects.
 
 ## Requirements
 
@@ -39,7 +41,7 @@ For this assignment we were asked to meet the following requirements:
 
 ## About The Project
 
-[About Page](Assets/about.png)
+![About Page](Assets/about.png)
 
 For this assignment we were asked to meet the following requirements:
 
@@ -69,7 +71,7 @@ To veiw my updated portfolio visit the deployed location on [Github Pages](https
 
 ## Usage
 
-[In Use](https://www.youtube.com/embed/IRGtSfRcAQc)
+![In Use](https://www.youtube.com/embed/IRGtSfRcAQc)
 
 <!-- CONTRIBUTING -->
 

@@ -41,7 +41,7 @@ For this assignment we were asked to meet the following requirements:
 
 ## About The Project
 
-![About Page](Assets/about.png)
+![Header](Assets/header.png)
 
 For this assignment we were asked to meet the following requirements:
 
@@ -71,7 +71,7 @@ To veiw my updated portfolio visit the deployed location on [Github Pages](https
 
 ## Usage
 
-![In Use](https://www.youtube.com/embed/IRGtSfRcAQc)
+[![In Use](Assets/about.png)](https://www.youtube.com/embed/IRGtSfRcAQc)
 
 <!-- CONTRIBUTING -->
 

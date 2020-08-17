@@ -71,6 +71,10 @@ To veiw my updated portfolio visit the deployed location on [Github Pages](https
 
 ## Usage
 
+Click the image below to view a video of the deployed version in use.
+
+[![In Use](Assets/about.png)](https://www.youtube.com/embed/IRGtSfRcAQc)
+
 <!-- CONTRIBUTING -->
 
 ## Contributing

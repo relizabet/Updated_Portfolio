@@ -1,4 +1,6 @@
-# Updated_Portfolio
+# Updated Portfolio
+
+An updated portfolio page featuring 4 of my most recent projects.
 
 ## Requirements
 
@@ -12,28 +14,9 @@ For this assignment we were asked to meet the following requirements:
 
     Submit an updated LinkedIn profile
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://relizabet.github.io/Updated_Portfolio/">
-    <img src="Assets/header.png" alt="Logo" width="80" height="80">
-  </a>
 
   <h3 align="center">Rachel E Campbell</h3>
 
@@ -58,7 +41,7 @@ For this assignment we were asked to meet the following requirements:
 
 ## About The Project
 
-[![About Page][product-screenshot]](Assets/about.png)
+![Header](Assets/header.png)
 
 For this assignment we were asked to meet the following requirements:
 
@@ -88,7 +71,9 @@ To veiw my updated portfolio visit the deployed location on [Github Pages](https
 
 ## Usage
 
-[Portfolio In Use](<iframe width="560" height="315" src="https://www.youtube.com/embed/IRGtSfRcAQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>)
+Click the image below to view a video of the deployed version in use.
+
+[![In Use](Assets/about.png)](https://www.youtube.com/embed/IRGtSfRcAQc)
 
 <!-- CONTRIBUTING -->
 
@@ -106,7 +91,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@rachelizacamp1](https://twitter.com/rachelizacamp1) - rachel@relizabeth.com
+Rachel E Campbell - [@rachelizacamp1](https://twitter.com/rachelizacamp1) - rachel@relizabeth.com
 
 Project Link: [https://github.com/relizabet/Updated_Portfolio](https://github.com/relizabet/Updated_Portfolio)
 
@@ -114,4 +99,4 @@ Project Link: [https://github.com/relizabet/Updated_Portfolio](https://github.co
 
 ## Acknowledgements
 
-- [Choose an Open Source License](https://choosealicense.com)
+- [MIT](https://mit-license.org/)

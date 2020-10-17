@@ -67,7 +67,7 @@ This section should list any major frameworks that you built your project using.
 
 ## Getting Started
 
-To veiw my updated portfolio visit the deployed location on [Github Pages](https://relizabet.github.io/Updated_Portfolio/) or on my [live site](https://relizabeth.com), which is the version that utilizes the PHP contact form.
+To veiw my updated portfolio visit the deployed location on [Github Pages](https://relizabet.github.io/Updated_Portfolio/).
 
 ## Usage
 
